@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Abhishek Thakur | Portfolio</title>
   <style>
     * {
@@ -34,6 +34,10 @@
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
     }
 
     section {
@@ -73,14 +77,26 @@
     .project {
       background: #fff;
       padding: 20px;
-      margin: 15px 0;
+      margin: 20px 0;
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
     .project img {
-      max-width: 100%;
+      width: 100%;
+      height: auto;
       border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .project a {
+      color: #4CAF50;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
     }
 
     #resume a {
@@ -91,6 +107,10 @@
       text-decoration: none;
       border-radius: 5px;
       margin-top: 10px;
+    }
+
+    #resume a:hover {
+      background: #555;
     }
 
     #contact p {
@@ -125,7 +145,7 @@
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <img src="your-photo.jpg" alt="Abhishek Thakur">
+    <img src="abhishek.jpeg" alt="Abhishek Thakur">
     <p>Hello! I am Abhishek Thakur, a passionate web developer with skills in HTML, CSS, and JavaScript. I enjoy creating responsive, user-friendly websites and love learning new technologies.</p>
   </section>
 
@@ -144,15 +164,25 @@
   <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
+
+    <!-- Project 1 -->
     <div class="project">
-      <h3>Project One</h3>
-      <img src="project1.jpg" alt="Project One">
-      <p>Description of the project goes here. Explain what you built and what technologies you used.</p>
+      <h3>Personal Portfolio Website</h3>
+      <p>A fully responsive and modern personal portfolio site built using HTML and CSS. It includes sections for about, skills, projects, and contact.</p>
+      <p><strong>Live Demo:</strong> <a href="https://notabhishe.github.io/codsoft_task1/" target="_blank">View Portfolio</a></p>
     </div>
+
+    <!-- Project 2 -->
     <div class="project">
-      <h3>Project Two</h3>
-      <img src="project2.jpg" alt="Project Two">
-      <p>Description of the project goes here. Explain what you built and what technologies you used.</p>
+      <h3>Landing Page</h3>
+      <p>A clean and modern landing page designed to promote a service or product. Created with HTML and CSS. Fully responsive and customizable.</p>
+      <p><strong>Live Demo:</strong> <a href="https://notabhishe.github.io/codsoft_task2/" target="_blank">View Landing Page</a></p>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+      <h3>JavaScript Calculator</h3>      <p>A simple and functional calculator built with HTML, CSS, and JavaScript. Supports basic arithmetic operations with a clean user interface.</p>
+      <p><strong>Live Demo:</strong> <a href="https://notabhishe.github.io/codsoft_task3/" target="_blank">Try Calculator</a></p>
     </div>
   </section>
 
@@ -160,13 +190,13 @@
   <section id="resume">
     <h2>Resume</h2>
     <p>You can download my resume below:</p>
-    <a href="resume.pdf" download>Download Resume</a>
+    <a href="resume.docx" download>Download Resume</a>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: abhishek@example.com</p>
+    <p>Email: abhirajput9640@gmail.com</p>
     <p>Phone: +91 98765 43210</p>
   </section>
 
